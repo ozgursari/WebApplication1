@@ -7,5 +7,7 @@ namespace WebApplication1
 {
     public class TestClass
     {
+        public static int MyProperty = 0;
+        
     }
 }
