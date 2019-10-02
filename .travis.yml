@@ -1,0 +1,9 @@
+language: csharp
+solution: WebApplication1.sln
+
+matrix:
+  include:
+    - dotnet: 2.0.5
+      mono: none
+      env: DOTNETCORE=2  # optional, can be used to take different code paths in your script
+    - mono: latest
